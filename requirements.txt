@@ -1,0 +1,8 @@
+pandas
+numpy
+networkx
+tqdm
+scikit-learn
+xgboost
+sentence-transformers
+jupyter
