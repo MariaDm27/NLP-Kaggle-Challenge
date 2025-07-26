@@ -17,15 +17,17 @@
 
 ```
 citation_project/
-├── citation_prediction.ipynb       # Τελικό notebook με πλήρες pipeline
-├── requirements.txt                # Απαιτούμενες βιβλιοθήκες
-├── data/                           # Αρχικά δεδομένα και train/test
-├── features/                       # Υπολογισμένα χαρακτηριστικά
-├── model_data/                     # Τελικά X_train, X_test, y_train
-├── submissions/                    # Υποβολές για το Kaggle
-├── submission_trials/  			# Δοκιμαστικές υποβολές στο Kaggle. !ΑΦΑΙΡΕΘΗΚΑΝ ΛΟΓΩ ΠΕΡΙΟΡΙΣΜΟΥ ΟΓΚΟΥ!
-├── other_notebooks/              	# Πειράματα με μοντέλα και feature sets
-└── report/                         # Αναφορά και παρουσίαση (.docx/.pptx)
+├── data/ # Raw δεδομένα και train/test splits
+├── features/ # Extracted features
+├── model_data/ # X_train, X_test, y_train
+├── submissions/ # Τελικές υποβολές για Kaggle
+├── submission_trials/ # Δοκιμαστικές υποβολές (αφαιρέθηκαν μεγάλα αρχεία)
+├── citation_prediction.ipynb # Τελικό notebook με το pipeline
+├── submission_experiments.ipynb # Πειράματα και alternative approaches
+├── requirements.txt # Απαιτούμενες βιβλιοθήκες
+├── NLP-report.pdf # Τελική αναφορά
+├── kaggle_challenge_2025.pdf # Εκφώνηση Kaggle Challenge
+└── NLP_exam_challenge_June_2025.pdf # Σχετικό αρχείο εξετάσεων
 ```
 
 ---
